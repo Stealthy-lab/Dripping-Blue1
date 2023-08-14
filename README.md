@@ -79,5 +79,9 @@ inside we can execute certain commands, in this case we will execute *ls* to lis
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/440c3712-3593-4715-a633-fdc6f7c8f793)
 
 
+*With the *unzip* command we try to unzip the file, but we are surprised that it has a password :O*
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/0050d0a5-d89e-4c5b-83ff-a01373cec124)
+
+
 
 
