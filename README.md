@@ -56,7 +56,7 @@ Now we will see what information we can obtain from the directories:
 *in our first check to *index.php* we didn't get much*
 
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/f5c3e48e-1b22-418f-bc7a-f7dd8b73aea3)
-*When reviewing *robots.txt* we see that we get two files that seem to be important, to keep them in focus*
+ *When reviewing *robots.txt* we see that we get two files that seem to be important, to keep them in focus*
 
 
 
