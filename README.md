@@ -83,5 +83,13 @@ inside we can execute certain commands, in this case we will execute *ls* to lis
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/0050d0a5-d89e-4c5b-83ff-a01373cec124)
 
 
+But when we press enter, leaving the password empty, we see that a compressed file *secret.zip* is extracted, this means that only the *txt* file was the one that required a password
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/ea386731-1638-4c07-83dd-1d6006009302)
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/d2476a54-1405-40e4-8219-89df801a3af3)
 
+
+we use fcrackzip to do a brute force attack to discover the password of the *zip* file and in this way extract the *txt* file, we use the following command: *fcrackzip -D -p /usr/share/wordlists/rockyou.txt -u respectmydrip.zip*
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/9e4e3991-32f4-40d1-a806-629bbe76819d)
+*we obtain the password of the zip file which is: *072528035**
 
