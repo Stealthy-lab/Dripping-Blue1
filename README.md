@@ -33,6 +33,10 @@ With the following command we will make an http request to see what we get.
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/deeaeecb-b87a-494c-bb41-243d05a3ec70)
 *a message was obtained that does not help much, a small stumble*
 
-***WE WILL MAKE A DISCOVERY OF POSSIBLE DIRECTORIES TO EXPAND OUR SCENARIOS (I will explain two ways to make this listing)
-***
+**WE WILL MAKE A DISCOVERY OF POSSIBLE DIRECTORIES TO EXPAND OUR SCENARIOS (I will explain two ways to make this listing)**
 
+7
+   7.1 The first way is by using the *dirb <ip>* command which uses a default dictionary to list directories.
+We get the following:
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/ad97af3e-04ff-46ce-bc2b-1585daf3baae)
