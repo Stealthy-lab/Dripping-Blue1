@@ -93,3 +93,40 @@ we use fcrackzip to do a brute force attack to discover the password of the *zip
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/9e4e3991-32f4-40d1-a806-629bbe76819d)
 *we obtain the password of the zip file which is: *072528035**
 
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/408ca3e2-bb40-4445-8fdd-c6f18a5010af)
+*we unzip the file and put the password and eureca we get the txt file*
+
+
+when opening the file it tells us to focus on drip
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/e3d5def5-19c4-4cdb-939a-794687297b1f)
+
+
+later we will review the path of robots.txt to see what we can do from there
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/f6d1e7c0-dd42-481a-ac4d-08a108d3ea80)
+
+
+when accessing the second route there is a remote code execution with which we read the html file, which when reading the source code we obtain the password of a user.
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/6253fc18-1112-4539-bfb6-d66b82fb2d18)
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/8c2cca22-c41b-491a-b2b3-f5eb633c8fad)
+
+
+By having a remote code execution we can read files, we will go to the path */etc/passwd*
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/65fa6435-1335-4ec9-a515-ec8222adcd5f)
+*se obtuvo esta informacion, ahora buscaremos un usuario valido*
+
+
+we found the user of the victim machine
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/c3576fcf-dd45-4c50-a3e4-2c94b6b9f10d)
+
+
+**Now we will try that password on the target machine to verify if it is the password of that user**
+
+
+WE VALIDATE AND READY WE ARE INSIDE, NOW TO LOOK FOR THE FLAG
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/224fd67b-610a-4d25-a5f7-c29c2167cd9e)
+
+
+
