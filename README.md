@@ -75,6 +75,7 @@ inside we can execute certain commands, in this case we will execute *ls* to lis
 *We managed to identify the file listed above in the passive acknowledgment*
 
 *Then we proceed to export that zip file in our local directory with the command *get <file name>**
+
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/440c3712-3593-4715-a633-fdc6f7c8f793)
 
 
