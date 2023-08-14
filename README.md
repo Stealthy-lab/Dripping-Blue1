@@ -46,3 +46,17 @@ We get the following:
 
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/e5824552-0236-4835-9c82-c38efb98bf03)
 *in the image we obtain evidence that we obtain the same results obtained with the previous form, in conclusion we can use one of these two ways to make a list of directories*
+
+9. 
+Now we will see what information we can obtain from the directories:
+*robots.txt*
+*index.php*
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/2252c5d4-b4e3-4704-8e45-12be062b69e7)
+*in our first check to *index.php* we didn't get much*
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/f5c3e48e-1b22-418f-bc7a-f7dd8b73aea3)
+*When reviewing *robots.txt* we see that we get two files that seem to be important, to keep them in focus*
+
+
+
