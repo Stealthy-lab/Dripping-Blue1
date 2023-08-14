@@ -25,3 +25,14 @@ and it is possible to identify something important and that is that you have an 
 
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/effb467f-cbda-4250-8afc-dad4a68a1401)
 
+6. 
+Then we'll do a reconnaissance on port 80 to see what we can get.
+With the following command we will make an http request to see what we get.
+*curl http://IP*
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/deeaeecb-b87a-494c-bb41-243d05a3ec70)
+*a message was obtained that does not help much, a small stumble*
+
+***WE WILL MAKE A DISCOVERY OF POSSIBLE DIRECTORIES TO EXPAND OUR SCENARIOS (I will explain two ways to make this listing)
+***
+
