@@ -66,4 +66,13 @@ Now we will see what information we can obtain from the directories:
 -We identified two apparently important files in the path *robots.txt*
 
 
+10.Following these we will connect by ftp anonymously with the following credentials *anonymous:anonymous* using the command *ftp <IP>*
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/f1feca26-e924-405b-b701-2b3cf787df32)
+
+inside we can execute certain commands, in this case we will execute *ls* to list possible files or folders
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/288f1bcd-d3df-43f6-b592-6710468a29b5)
+*We managed to identify the file listed above in the passive acknowledgment*
+
+
 
