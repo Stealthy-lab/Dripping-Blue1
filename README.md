@@ -18,6 +18,7 @@ PASSIVE RECOGNITION.
 4.Perform a scan with nmap for enumeration and detection of services.
 *nmap -sC -sV <IP>*
 
+
 5. ports are identified
 *(21,22,80)*
 and it is possible to identify something important and that is that you have an anonymous connection via ftp and you can see a zip file with the name
@@ -25,8 +26,7 @@ and it is possible to identify something important and that is that you have an 
 
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/effb467f-cbda-4250-8afc-dad4a68a1401)
 
-6. 
-Then we'll do a reconnaissance on port 80 to see what we can get.
+6. Then we'll do a reconnaissance on port 80 to see what we can get.
 With the following command we will make an http request to see what we get.
 *curl http://IP*
 
