@@ -60,4 +60,10 @@ Now we will see what information we can obtain from the directories:
  *When reviewing *robots.txt* we see that we get two files that seem to be important, to keep them in focus*
 
 
+ **Well, in this process of passive recognition and enumeration we obtained some information that could be of use to us:
+- Anonymous connections to ftp and we see a *zip* file
+-We identified two apparently important files in the path *robots.txt*
+**
+
+
 
