@@ -35,8 +35,14 @@ With the following command we will make an http request to see what we get.
 
 **WE WILL MAKE A DISCOVERY OF POSSIBLE DIRECTORIES TO EXPAND OUR SCENARIOS (I will explain two ways to make this listing)**
 
-7
-   7.1 The first way is by using the *dirb <ip>* command which uses a default dictionary to list directories.
+
+7.The first way is by using the *dirb <ip>* command which uses a default dictionary to list directories.
 We get the following:
 
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/ad97af3e-04ff-46ce-bc2b-1585daf3baae)
+
+8. The next way to do it is using *gobuster* with the following command it performs the same procedure as *dir* but this time in a more organized way.
+*gobuster dir -u http://<IP> -x html,txt,php,bak --wordlist=/usr/share/wordlists/dirb/common.txt*
+
+![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/e5824552-0236-4835-9c82-c38efb98bf03)
+*in the image we obtain evidence that we obtain the same results obtained with the previous form, in conclusion we can use one of these two ways to make a list of directories*
