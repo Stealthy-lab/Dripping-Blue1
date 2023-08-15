@@ -1,3 +1,7 @@
+**Download link of the vulnerable machine Dripping_Blue**
+https://download.vulnhub.com/drippingblues/drippingblues.ova
+
+
 # Dripping_Blue
 In this repository I will be explaining the solution of the Dripping_Blue1 laboratory where I will give you the step by step, how to do it and if you have any questions, do not hesitate to contact us.
 
