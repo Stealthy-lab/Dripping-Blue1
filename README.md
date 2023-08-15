@@ -111,7 +111,7 @@ later we will review the path of robots.txt to see what we can do from there
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/f6d1e7c0-dd42-481a-ac4d-08a108d3ea80)
 
 
-when accessing the second route there is a remote code execution with which we read the html file, which when reading the source code we obtain the password of a user.
+when accessing the second route we have an LFI which allows us to access and read system files by manipulating routes in requests
 
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/6253fc18-1112-4539-bfb6-d66b82fb2d18)
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/8c2cca22-c41b-491a-b2b3-f5eb633c8fad)
