@@ -119,7 +119,7 @@ when accessing the second route there is a remote code execution with which we r
 
 By having a remote code execution we can read files, we will go to the path */etc/passwd*
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/65fa6435-1335-4ec9-a515-ec8222adcd5f)
-*se obtuvo esta informacion, ahora buscaremos un usuario valido*
+*This information was obtained, now we will look for a valid user*
 
 
 we found the user of the victim machine
